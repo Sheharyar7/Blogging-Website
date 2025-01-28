@@ -1,12 +1,14 @@
+
 {
   "name": "blogging-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir ./dev --public-url ./"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^latest"
+  }
 }
